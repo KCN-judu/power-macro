@@ -5,3 +5,37 @@ body {
   max-width: 38rem;
   padding: 2rem;
 }
+
+.disabled-button {
+  /*disable pointer events*/
+  pointer-events: none;
+  
+  /*button styles*/
+  opacity: 0.5;
+}
+
+.page-button {
+  /*button text properties*/
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+
+  /*button box styles*/
+  padding: 5px 10px;  
+  border-radius: 5px;
+  background-color:lightslategray;
+  
+  /*button hover styles*/
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page-button:hover {
+  /*button text properties*/
+  color: #040406;
+
+  /*button box styles*/
+  padding: 8px 16px;
+  background-color:darkgray;
+  
+}
