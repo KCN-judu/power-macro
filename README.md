@@ -1,6 +1,16 @@
 Power Macro
 ==========
+## Dev Notice
+
+### Due to the aim of  Multi-Platform Support
+We decided to use Node.js C++ addons as under-layer implementations.
+
+### Due to develop Node.js C++ addons in this proj will lead to bloating and complexity increasing
+We decided to create new repos to store these Node.js C++ addons proj.
+
+
 ## Introduce
+
 ### What is Power Macro?
 
 Power Macro allows for the recording and playback of keyboard and mouse actions, providing the ability to automate repetitive tasks and enhance productivity.  
