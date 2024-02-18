@@ -6,7 +6,8 @@ Power Macro
 We decided to use Node.js C++ addons as under-layer implementations.
 
 ### Due to develop Node.js C++ addons in this proj will lead to bloating and complexity increasing
-We decided to create new repos to store these Node.js C++ addons proj.
+We decided to create new repos to store these Node.js C++ addons proj.  
+[pm-win-api](https://github.com/KCN-judu/pm-win-api) repo: under-layer implementation on Windows
 
 
 ## Introduce
