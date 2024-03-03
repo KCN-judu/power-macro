@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="./index.css" />
 
   </head>
-  <body>
+  <script src="./macroProc.js"></script>
     <h1>💖 Hello World!</h1>
-    <button class = "page-button", id = "run-macro">Run Macro</button>
-    <button class = "page-button", id = "read-macro">Read Macro</button>
-    <button class = "page-button", id = "select-macro">Select Macro</button>
+    <input type="file" id="fileInput" onchange="filename = handleFileSelect(event)" style="display: none;">
+    <button onclick="runMacro()", class = "page-button", id = "run-macro">Run Macro</button>
+    <button onclick="readMacro(file)", class = "page-button", id = "read-macro">Read Macro</button>
+    <button onclick="document.getElementById('fileInput').click()", class = "page-button", id = "select-macro">Select Macro</button>
     <p>Welcome to your Electron application.</p>
   </body>
 </html>
